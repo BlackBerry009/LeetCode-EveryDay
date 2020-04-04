@@ -16,3 +16,4 @@
     * [排序](algorithm/sort/)
     * [递归](algorithm/recursive/)
     * [双指针](algorithm/double-pointer/)
+    * [动态规划](algorithm/dp/)
