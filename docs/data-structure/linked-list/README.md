@@ -4,8 +4,9 @@
 --- 
 [原题链接](https://leetcode-cn.com/problems/add-two-numbers/)
 
-> 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。 
+> 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。   
 
+思路： 就是简单的数字相加，注意进位即可。
 ```javascript
 var addTwoNumbers = function (l1, l2) {
     let head = new ListNode(0);
@@ -33,7 +34,7 @@ var addTwoNumbers = function (l1, l2) {
 
 ## 21. 合并两个有序链表
 --- 
-[原题链接](https://leetcode-cn.com/problems/add-two-numbers/)
+[原题链接](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 
 > 将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 

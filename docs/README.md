@@ -10,5 +10,7 @@
 
 >   热爱前端，享受生活 :laughing:
 
+>   喜欢就来个  [star](https://github.com/BlackBerry009/LeetCode-EveryDay)  吧 :star:
+
 
 
