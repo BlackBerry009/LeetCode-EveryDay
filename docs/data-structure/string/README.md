@@ -2,11 +2,12 @@
 
 ## 3. 无重复最长字符串
 --- 
-[原题链接]()
+[原题链接](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
->  
+>  给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
 
-思想： 
+思想： 维护一个str变量，扫描字符串并添加进str中，如果str有重复的元素则进行截取。  
+
 ```javascript
 var lengthOfLongestSubstring = function(s) {
     let result = 0;
@@ -28,10 +29,18 @@ var lengthOfLongestSubstring = function(s) {
 
 
 ## 5. 最长回文字符串
+--- 
+[原题链接](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 
+> 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000
+
+解一： 暴力法  
+
+双层循环截取字符串，判断是否为回文。
 
 ```javascript
 var longestPalindrome = function(s) {
+    //判断是否为回文
     var isPalindrome = function (str){
         for(let i = 0, j = str.length - 1; i < j; i++,j--){
             if(str[i] != str[j]) return false;
@@ -56,6 +65,12 @@ var longestPalindrome = function(s) {
 ```
 
 ## 14.最长公共前缀
+--- 
+[原题链接](https://leetcode-cn.com/problems/longest-common-prefix/)
+
+> 编写一个函数来查找字符串数组中的最长公共前缀。如果不存在公共前缀，返回空字符串 ""。  
+  
+思想： 两两取公共前缀，再把结果作为新字符串往后轮询。
 
 ```javascript
 var longestCommonPrefix = function(strs) {

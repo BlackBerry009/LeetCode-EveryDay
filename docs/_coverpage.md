@@ -1,4 +1,4 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](static/img/1.jpg)
 
 # LeetCode-EveryDay
 
@@ -6,5 +6,5 @@
 
 * 一个切图仔的日常
 
-[GitHub](https://github.com/BlackBerry009?tab=repositories)
-[Get Started](#介绍)
+[GitHub](https://github.com/BlackBerry009/LeetCode-EveryDay)
+[Get Started](#个人介绍)
