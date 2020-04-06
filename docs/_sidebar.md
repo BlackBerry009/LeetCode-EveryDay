@@ -18,7 +18,7 @@
     * [排序](algorithm/sort/)
     * [递归](algorithm/recursive/)
 *  2.3 其他
-    * [ad](others/)
+    * [其他类型](others/)
 
 
     
