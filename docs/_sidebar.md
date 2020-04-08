@@ -13,6 +13,7 @@
     * [动态规划](algorithm/dp/)
     * [二分查找](algorithm/binary-search/)
     * [双指针](algorithm/double-pointer/)
+    * [广度优先搜索](algorithm/bfs/)
     * [贪心](algorithm/greedy/)
     * [回溯](algorithm/backtrack/)
     * [排序](algorithm/sort/)
